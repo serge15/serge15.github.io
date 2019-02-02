@@ -2,11 +2,13 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	background: #fdfdfd;
 }
 
 .wrapper {
 	margin: 0 auto;
-	width: 1280px;
+	width: 800px;
 }
 
 .collection {
@@ -24,6 +26,7 @@ ul {
 
 ul li {
 	list-style: none;
+	background: #e4e4e4;
 }
 
 ul li:nth-child(odd) {
@@ -39,6 +42,6 @@ ul li a {
 }
 
 ul li a:hover {
-	background: #e4e4e4;
+	background: #c7c7c7;
 	color: hotpink;
 }
